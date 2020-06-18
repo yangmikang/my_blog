@@ -3,17 +3,21 @@ function MobileSideBar__toggle() {
     var $btn2 = $('.mobile-side-bar');
     var $btn3 = $('.background');
     var $btn4 = $('html');
+    var $btn5 = $('.mobile-side-bar>.close>a')
 
     if ($btn.hasClass('active')) {
         $btn.removeClass('active');
         $btn2.removeClass('active');
         $btn3.removeClass('active');
         $btn4.removeClass('active');
+        $btn5.removeClass('active');
     } else {
         $btn.addClass('active');
         $btn2.addClass('active');
         $btn3.addClass('active');
         $btn4.addClass('active');
+        $btn5.addClass('active');
+
     }
 }
 
@@ -28,8 +32,9 @@ function MobileSideBox__toggle(e) {
 }
 
 function MobileSideBar__init() {
-    $('.btn-toggle-mobile-side-bar,.background').click(MobileSideBar__toggle);
+    $('.btn-toggle-mobile-side-bar,.background,.mobile-side-bar>.close>a').click(MobileSideBar__toggle);
     $('.side-box ul >li').click(MobileSideBox__toggle);
+
 }
 
 $(function () {
