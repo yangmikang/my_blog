@@ -1,0 +1,517 @@
+html {
+    /* 영문이면 roboto가 적용되고, 한글이면 Noto Sans KR가 적용되도록 아래와 같은 순서로 배치 */
+    font-family: "Roboto", "Noto Sans KR", sans-serif;
+  }
+  
+  /* 노말라이즈 */
+  body, ul, li, h1 {
+    margin:0;
+    padding:0;
+    list-style:none;
+  }
+  
+  a {
+    color:inherit;
+    text-decoration:none;
+  }
+  
+  label[for] {
+    cursor:pointer;
+    user-select:none;
+  }
+  
+  /* 라이브러리 */
+  .block {
+    display:block;
+  }
+  
+  .inline-block {
+    display:inline-block;
+  }
+  
+  .absolute-left {
+    position:absolute;
+    left:0;
+  }
+  
+  .absolute-right {
+    position:absolute;
+    right:0;
+  }
+  
+  .absolute-bottom {
+    position:absolute;
+    bottom:0;
+  }
+  
+  .absolute-top {
+    position:absolute;
+    top:0;
+  }
+  
+  .absolute-center {
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+  }
+  
+  .absolute-middle {
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+  }
+  
+  .absolute-middle.absolute-center {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translateX(-50%) translateY(-50%);
+  }
+  
+  .relative {
+    position:relative;
+  }
+  
+  .cell {
+    float:left;
+    box-sizing:border-box;
+  }
+  
+  .cell-right {
+    float:right;
+    box-sizing:border-box;
+  }
+  
+  .row::after {
+    content:"";
+    display:block;
+    clear:both;
+  }
+  
+  .clear-both {
+    clear:both;
+  }
+  
+  .img-box > img {
+    width:100%;
+    display:block;
+  }
+  
+  .con {
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .con-2{   margin-left:auto;
+    margin-right:auto;
+
+  }
+  
+  .margin-0-auto {
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
+  .text-align-center {
+    text-align:center;
+  }
+  
+  .text-align-right {
+    text-align:right;
+  }
+  
+  .line-height-0 {
+    line-height:0;
+  }
+  
+  .line-height-0 > * {
+    line-height:normal;
+  }
+  
+  .width-30px {
+    width:30px;
+  }
+  
+  .width-35px {
+    width:35px;
+  }
+  
+  .width-40px {
+    width:35px;
+  }
+  
+  .width-45px {
+    width:35px;
+  }
+  
+  .width-50px {
+    width:50px;
+  }
+  
+  .width-80px {
+    width:80px;
+  }
+  
+  .width-100px {
+    width:100px;
+  }
+  
+  .width-100p {
+    width:100%;
+  }
+  
+  .width-60p {
+    width:60%;
+  }
+  
+  .width-55p {
+    width:55%;
+  }
+  
+  .width-50p {
+    width:50%;
+  }
+  
+  .width-45p {
+    width:45%;
+  }
+  
+  .width-40p {
+    width:40%;
+  }
+  
+  .width-30p {
+    width:30%;
+  }
+  
+  .width-35p {
+    width:35%;
+  }
+  
+  .width-100p-except-30px {
+    width:calc(100% - 30px);
+  }
+  
+  .width-100p-except-35px {
+    width:calc(100% - 35px);
+  }
+  
+  .width-100p-except-40px {
+    width:calc(100% - 40px);
+  }
+  
+  .width-100p-except-50px {
+    width:calc(100% - 50px);
+  }
+  
+  .width-100p-except-80px {
+    width:calc(100% - 80px);
+  }
+  
+  .width-100p-except-100px {
+    width:calc(100% - 100px);
+  }
+  
+  .height-100p {
+    height:100%;
+  }
+  
+  .height-50p {
+    height:50%;
+  }
+  
+  .border-box {
+    box-sizing:border-box;
+  }
+  
+  .font-size-dot-8rem {
+    font-size:.8rem;
+  }
+  
+  .table-row {
+    display:table;
+  }
+  
+  .table-row.row::after {
+    display:inline;
+    clear:non;
+  }
+  
+  .table-row > .cell {
+    float:none;
+    display:table-cell;
+  }
+  
+  .border-red {
+    border:10px solid red;
+  }
+  
+  .border-green {
+    border:10px solid green;
+  }
+  
+  .border-blue {
+    border:10px solid blue;
+  }
+  
+  .border-gold {
+    border:10px solid gold;
+  }
+  
+  .border-pink {
+    border:10px solid pink;
+  }
+  
+  /* 라이브러리 - flex */
+  * > .flex {
+    display:flex;
+  }
+  
+  * > .flex-grow-1 {
+    flex-grow:1;
+  }
+  
+  * > .flex-jc-s {
+    justify-content:flex-start;
+  }
+  
+  * > .flex-jc-e {
+    justify-content:flex-end;
+  }
+  * > .flex-jc-c {
+    justify-content: center;
+  }
+  
+  * > .flex-jc-sb {
+    justify-content:space-between;
+  }
+  * > .flex-jc-end {
+    display:flex;
+    justify-content:flex-end;
+  }
+  
+  * > .flex-ai-c {
+    display:flex;
+    align-items:center;
+  }
+  * > .flex-ai-s {
+    align-items:flex-start;
+  }
+  
+  * > .flex-ai-e {
+    align-items:flex-end;
+  }
+  
+  * > .flex-as-s {
+    align-self:stretch;
+  }
+  
+  * > .flex-as-c {
+    align-self:center;
+  }
+  
+  * > .flex-as-s {
+    align-self:flex-start;
+  }
+  
+  * > .flex-as-e {
+    align-self:flex-end;
+  }
+  
+  * > .flex-column-nowrap {
+    flex-flow:column nowrap;
+  }
+  
+  * > .flex-column-wrap {
+    flex-flow:column wrap;
+  }
+  
+  .flex-ch-basis-0 > * {
+    flex-basis:0;
+  }
+  
+  * > .flex-1-0-0 {
+    flex:1 0 0;
+  }
+
+  /* 커스텀 */
+  .con-min-width {
+    min-width:1356px;
+  }
+  
+  .con {
+    max-width:1356px;
+  }
+  .con-1 {
+    min-width:1980px;
+  }
+  .con-2{
+    max-width: 1300px;
+  }
+  .m-auto{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sns-bar {
+      position: relative;
+      height: 60px;
+  }
+  .sns-logo>.sns{
+      position: absolute;
+      top: 60%;
+      left: 0;
+      transform: translateY(-50%);
+  }
+  .sns-logo>.sns>img{
+      display: block;
+      width: 200px;
+  }
+  .login-bar {
+      position: absolute;
+      top: 60%;
+      right: 0;
+      transform: translateY(-50%);
+  }
+  .login-bar>.login-box{
+      line-height: 60px;
+  }
+  .login-bar>.login-box>ul>li>a{
+      display: block;
+      padding-left: 30px;
+      font-size: 1.2rem;
+  }
+  .login-bar>.login-box>ul>li:last-of-type>a{
+      padding-top:10px ;
+  }
+  .login-bar>.login-box>ul>li>a>img{
+    width: 145px;
+    margin-top: 12px;
+  }
+  .musinsa-logo{
+      position: relative;
+  }
+  .musinsa-logo> .musinsa{
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 90px;
+      width: 700px;
+  }
+  .musinsa-logo> .musinsa>img{
+      display: block;
+      width: 100%;
+      
+  }
+  .bn-bar>.img-box{
+    width: 100%;
+    height: 100%;
+      background-image:url("https://user-images.githubusercontent.com/66409890/85597629-c3cb2f00-b685-11ea-8497-f1df464b1d95.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 760px;
+  }
+  
+
+  .bn-menu-bar{
+    background-color: rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bn-menu-bar >.bn-menu-box>ul>li>a{
+    position: relative;
+  }
+.bn-menu-bar >.bn-menu-box>ul>li>a>span{
+    display: block;
+    padding:15px;
+    color: rgb(233, 232, 232);
+    padding: 15 30px;
+    font-size: 20px;
+    position: relative;
+}
+.bn-menu-bar >.bn-menu-box>ul>li>a>span::after{
+  content: "/";
+  font: normal 24px/24px Helvetica, Arial;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right:-4px;
+  z-index: 2;
+
+}
+
+    
+
+    .bottom-menu-bar{
+        background-color: rgb(255, 255, 255);
+    }
+    .bottom-menu-bar>.bottom-menu-box>ul>li{
+      width: calc(100%/9);
+    }
+.bottom-menu-bar>.bottom-menu-box>ul>li>a{
+    display: block;
+    padding: 10px 21.5px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(53, 48, 48)
+    
+}
+.bottom-menu-bar>.bottom-menu-box>ul>li{
+    border: solid rgb(170, 180, 175) 1px;
+}
+
+.lookbook>.lookbook-icon>img{
+    width: 350px;
+    display: flex;
+    background-color: white;
+    }
+.lookbook>.lookbook-icon{
+    margin-top: 7%;
+    background: url("http://www.marieclairekorea.com/wp-content/themes/simplemag/images/section-header.png") repeat-x 0 40%;
+    max-width: 1500px;
+    padding-bottom: 100px;
+
+}
+
+.lb-img>.img-bar>ul>li{
+    
+    width: calc(100%/4);
+    float: left;
+    text-align: center;
+}
+.lb-img>.img-bar>ul>li>.img-box2>img{
+    width: 300px;
+    transition:transform 0.4s;
+}
+.lb-img>.img-bar>ul>li>.img-day>a{
+    display: block;
+    color: rgb(168, 168, 168);
+    padding: 20px 0;
+    font-size:18px ;
+    font-weight:bold;
+    
+}
+.lb-img>.img-bar>ul>li>.img-text>a{
+    display: block;
+    padding-top: 20px ;
+    font-size: 20px;
+}
+
+.lb-img>.img-bar>ul>li>.img-box2:hover>img{
+  transform: scale(1.3);
+}
+.lb-img>.img-bar>ul>li:hover>.img-box2{
+  position: relative;
+  overflow: hidden;
+}
+.magazine{
+  background-color: #ebebeb;
+  min-width: 1980px;
+  height: 900px;
+  margin-top: 500px;
+  border-top: solid 5px rgb(77, 73, 78);
+  border-bottom: solid 5px rgb(77, 73, 78);
+
+}
+html>body{
+  overflow-x:hidden ;
+}
+
+/*이미지 스캐일*/
