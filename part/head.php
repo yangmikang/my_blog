@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>블로그</title>
     <link rel="stylesheet" href="/resource/common.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
     <script src="/resource/common.js"></script>
+    
 </head>
 
 <body>
-    <div class="logo flex flex-1-0-0 ">
-        <img src="./resource/img/미강로고.png" style="width:100px;">
-    </div>
+    <div class="top-bar con">
+        <div class="logo flex flex-1-0-0 con">
+            <img src="./resource/img/미강로고.png" style="width:70px;">
+        </div>
     <div class="mobile-top-bar window-md-down flex">
         <a href="#" class="btn-toggle-mobile-side-bar flex flex-self-c">
             <div></div>
@@ -21,28 +24,50 @@
             <div></div>
         </a>
     </div>
+    <div class="sns con ">
+        <div class="sns-icon con">
+            <img src="./resource/img/SNS아이콘 1.png" alt="">
+        </div>
+    </div>
     <div class="top-bar window-md-up">
         <div class="height-100p flex">
-            <nav class="menu-box flex flex-1-0-0">
+            <nav class="menu-box flex flex-1-0-0 con">
                 <ul class="flex flex-1-0-0">
                     <li class=" flex"><a href="/" class="flex flex-1-0-0 flex-ai-c flex-jc-c">HOME</a></li>
                     <li class="flex"><a href="/list.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c">ARTICLES</a>
-                    </li>
+                    </li> 
                     <li class="flex"><a href="/list.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c">PORTFOLIO</a>
                     </li>
                     <li class="flex"><a href="/aboutMe.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c">ABOUT
                             ME</a>
                     </li>
+
                     <li class="flex">
                         <a href="#" class="flex flex-1-0-0 flex-ai-c flex-jc-c">SNS</a>
                     </li>
             </nav>
         </div>
-    </div>
-    <div class="bn-bar">
-        <div class="img-box">
-            <img src="./resource/img/배너이미지.jpg" style="width:1500px">
+    </div></div>
+
+    <div class="bn-slider-bar ">
+        <div class="bn-slider">
+            <div style="background-image:url(https://user-images.githubusercontent.com/66409890/86404279-44270b00-bcea-11ea-9c53-a5277be9eb16.png);" class="active"></div>
+            <div style="background-image:url(https://user-images.githubusercontent.com/66409890/86404308-4e490980-bcea-11ea-8393-b229d83490c1.png);"></div>
+            <div style="background-image:url(./resource/img/배너1.png);"></div>
         </div>
+        <div class="side-bars">
+        <div>
+            <span>
+                <i class="fa fa-angle-left" aria-hidden="true"></i>
+            </span>
+        </div>
+        <div>
+            <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+        </div>
+    </div>
+    </div>
+        
+        
     </div>
     <div class="background"></div>
     <div class="mobile-side-bar">
@@ -240,3 +265,4 @@
             </a>
         </div>
     </div>
+    

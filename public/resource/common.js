@@ -40,3 +40,30 @@ function MobileSideBar__init() {
 $(function () {
     MobileSideBar__init();
 })
+
+$('.bn-slider-bar > .side-bars > div').click(function() {
+    var $clickedBtn = $(this);
+    var $slider = $clickedBtn.closest('.bn-slider-bar');
+    var isLeft = $clickedBtn.index() == 0;
+    var $currnet = $slider.find('.bn-slider > .active');
+    var $post = null;
+    
+    if ( isLeft ) {
+        $post = $currnet.prev();
+    }
+    else {
+        $post = $currnet.next();
+    }
+    
+    if ( $post.length == 0 ) {
+        if ( isLeft ) {
+            $post = $slider.find('.bn-slider > div:last-child');
+        }
+        else {
+            $post = $slider.find('.bn-slider > div:first-child');
+        }
+    }
+    
+    $currnet.removeClass('active');
+    $post.addClass('active');
+});
