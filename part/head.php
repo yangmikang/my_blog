@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>블로그</title>
     <link rel="stylesheet" href="/resource/common.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
     <script src="/resource/common.js"></script>
-    
 </head>
 
 <body>
@@ -17,57 +17,61 @@
         <div class="logo flex flex-1-0-0 con">
             <img src="./resource/img/미강로고.png" style="width:70px;">
         </div>
-    <div class="mobile-top-bar window-md-down flex">
-        <a href="#" class="btn-toggle-mobile-side-bar flex flex-self-c">
-            <div></div>
-            <div></div>
-            <div></div>
-        </a>
-    </div>
-    <div class="sns con ">
-        <div class="sns-icon con">
-            <img src="./resource/img/SNS아이콘 1.png" alt="">
+        <div class="mobile-top-bar window-md-down flex">
+            <a href="#" class="btn-toggle-mobile-side-bar flex flex-self-c">
+                <div></div>
+                <div></div>
+                <div></div>
+            </a>
         </div>
-    </div>
-    <div class="top-bar window-md-up">
-        <div class="height-100p flex">
-            <nav class="menu-box flex flex-1-0-0 con">
-                <ul class="flex flex-1-0-0">
-                    <li class=" flex"><a href="/" class="flex flex-1-0-0 flex-ai-c flex-jc-c">HOME</a></li>
-                    <li class="flex"><a href="/list.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c">ARTICLES</a>
-                    </li> 
-                    <li class="flex"><a href="/list.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c">PORTFOLIO</a>
-                    </li>
-                    <li class="flex"><a href="/aboutMe.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c">ABOUT
-                            ME</a>
-                    </li>
+        <div class="sns con ">
+            <div class="sns-icon con">
+                <img src="./resource/img/SNS아이콘 1.png" alt="">
+            </div>
+        </div>
+        <div class="top-bar window-md-up">
+            <div class="height-100p flex">
+                <nav class="menu-box flex flex-1-0-0 con">
+                    <ul class="flex flex-1-0-0">
+                        <li class=" flex"><a href="/" class="flex flex-1-0-0 flex-ai-c flex-jc-c">HOME</a></li>
+                        <li class="flex"><a href="/list.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c">ARTICLES</a>
+                        </li>
+                        <li class="flex"><a href="/list.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c">PORTFOLIO</a>
+                        </li>
+                        <li class="flex"><a href="/aboutMe.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c">ABOUT
+                                ME</a>
+                        </li>
 
-                    <li class="flex">
-                        <a href="#" class="flex flex-1-0-0 flex-ai-c flex-jc-c">SNS</a>
-                    </li>
-            </nav>
+                        <li class="flex">
+                            <a href="#" class="flex flex-1-0-0 flex-ai-c flex-jc-c">SNS</a>
+                        </li>
+                </nav>
+            </div>
         </div>
-    </div></div>
+    </div>
 
     <div class="bn-slider-bar ">
         <div class="bn-slider">
-            <div style="background-image:url(https://user-images.githubusercontent.com/66409890/86404279-44270b00-bcea-11ea-9c53-a5277be9eb16.png);" class="active"></div>
-            <div style="background-image:url(https://user-images.githubusercontent.com/66409890/86404308-4e490980-bcea-11ea-8393-b229d83490c1.png);"></div>
+            <div style="background-image:url(https://user-images.githubusercontent.com/66409890/86404279-44270b00-bcea-11ea-9c53-a5277be9eb16.png);"
+                class="active"></div>
+            <div
+                style="background-image:url(https://user-images.githubusercontent.com/66409890/86404308-4e490980-bcea-11ea-8393-b229d83490c1.png);">
+            </div>
             <div style="background-image:url(./resource/img/배너1.png);"></div>
         </div>
         <div class="side-bars">
-        <div>
-            <span>
-                <i class="fa fa-angle-left" aria-hidden="true"></i>
-            </span>
-        </div>
-        <div>
-            <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+            <div>
+                <span>
+                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                </span>
+            </div>
+            <div>
+                <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+            </div>
         </div>
     </div>
-    </div>
-        
-        
+
+
     </div>
     <div class="background"></div>
     <div class="mobile-side-bar">
@@ -94,21 +98,32 @@
             </ul>
         </div>
     </div>
+
+
     <div class="about-me-logo flex flex-1-0-0 con-2">
         <div class="text-logo">
             <a href="#">
                 About ME
             </a>
         </div>
-        <div class="profile ">
+    </div>
+    <div class="about con-2 flex">
+        <div class="profile flex">
             <div class="profile-img">
-                <img src="./resource/img/프로필.png" style="width:1100px">
+                <img src="./resource/img/프로필.png" alt="">
             </div>
-
         </div>
 
-
+        <div class="profile-text flex">
+            <ul>
+                <li>이름 : Yang Mi Kang</li>
+                <li>주소 : 대전시 서구 SBS아카데미</li>
+                <li>나이 : 23</li>
+                <li>소개글 : 자기를 소개하는 내용을 적은 모든 글이 포함될 수 있다. 모든 글이 포함될 수 있다. </li>
+            </ul>
+        </div>
     </div>
+
 
     <div class="portfolio con-2">
         <div class="portfolio-logo">
@@ -265,4 +280,3 @@
             </a>
         </div>
     </div>
-    

@@ -37,11 +37,8 @@ function MobileSideBar__init() {
 
 }
 
-$(function () {
-    MobileSideBar__init();
-})
 
-$('.bn-slider-bar > .side-bars > div').click(function() {
+function slider(){
     var $clickedBtn = $(this);
     var $slider = $clickedBtn.closest('.bn-slider-bar');
     var isLeft = $clickedBtn.index() == 0;
@@ -66,4 +63,17 @@ $('.bn-slider-bar > .side-bars > div').click(function() {
     
     $currnet.removeClass('active');
     $post.addClass('active');
-});
+}
+
+
+function sliderbar__init() {
+    $('.bn-slider-bar > .side-bars > div').click(slider);
+
+}
+
+
+
+$(function () {
+    MobileSideBar__init();
+    sliderbar__init();
+})
