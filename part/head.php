@@ -33,12 +33,12 @@
             <div class="height-100p flex">
                 <nav class="menu-box flex flex-1-0-0 con">
                     <ul class="flex flex-1-0-0">
-                        <li class=" flex"><a href="/" class="flex flex-1-0-0 flex-ai-c flex-jc-c">HOME</a></li>
-                        <li class="flex"><a href="/list.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c">ARTICLES</a>
+                        <li class=" "><a href="/" class="flex flex-1-0-0 flex-ai-c flex-jc-c">HOME</a></li>
+                        <li class=""><a href="/list.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c">ARTICLES</a>
                         </li>
-                        <li class="flex"><a href="/list.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c">PORTFOLIO</a>
+                        <li class=""><a href="/list.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c">PORTFOLIO</a>
                         </li>
-                        <li class="flex"><a href="/aboutme.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c">ABOUT
+                        <li class=""><a href="/aboutme.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c">ABOUT
                                 ME</a>
                         </li>
 
