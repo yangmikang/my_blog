@@ -15,13 +15,13 @@
 
 <body>
     <div class="home">
-        <div class="top">
-            <div class="top-bar con-2 ">
-                <div class="logo">
+        <div class="top con">
+            <div class="top-bar con ">
+                <div class="logo con">
                     <a href="#"><img src="http://marongmarong.com/images/logo-white.png" alt=""></a>
 
                 </div>
-                <div class="menu-bar con-2 ">
+                <div class="menu-bar con ">
                     <div class="menu-box">
                         <ul>
                             <li><a href="#" class=>ABOUT</a></li>
@@ -53,7 +53,7 @@
             </div>
         </div>
         <div class="middle-text">
-            <div class="middle con-2">
+            <div class="middle con">
                 <div class="section">
                     <div class="text">
                         <div class="img"><img src="./resource/img/전구.PNG" alt=""></div>
@@ -70,8 +70,8 @@
                         <div class="span"></div>
                     </div>
                     <div class="content-box">
-                        <div class="title">Logo & Identity Design</div>
-                        <div class="content-text">브랜드 및 비즈니스의 가치가 고객에게 잘 전달되도록 로고 및 기업(브랜드)의 아이덴티티를 디자인 제작합니다.</div>
+                        <div class="title">Web UI/UX Design</div>
+                        <div class="content-text">방문자가 보았을때 아름답고 이해하기 쉽도록 홈페이지, APP, 키오스크 등의 UI/UX를 디자인 제작합니다.</div>
                     </div>
                 </div>
                 <div class="section">
@@ -80,8 +80,8 @@
                         <div class="span"></div>
                     </div>
                     <div class="content-box">
-                        <div class="title">Logo & Identity Design</div>
-                        <div class="content-text">브랜드 및 비즈니스의 가치가 고객에게 잘 전달되도록 로고 및 기업(브랜드)의 아이덴티티를 디자인 제작합니다.</div>
+                        <div class="title">Illustration</div>
+                        <div class="content-text">책 일러스트, 프로필 일러스트, 인테리어 일러스트 등 개성과 따뜻한 감성을 담은 그림을 그립니다.</div>
                     </div>
                 </div>
             </div>
@@ -92,17 +92,18 @@
                     <div class="card-img" style="background-image:url(https://github.com/yangmikang/img1/blob/master/pf/%EB%A7%88%EB%A1%B1%EB%A7%88%EB%A1%B1/main_businesscards3.jpg?raw=true);"></div>
                     <div class="card-text">
                         <div class="card-padding">
-                            <h5>
-                                <span>Graphic</span><span>Design Studio.</span>
-                            </h5>
+                            <div>
+                                <span>GRAPHIC</span>
+                                <span>DESIGN STUDIO.</span>
+                            </div>
                             <div class="card-line"></div>
                             <p>
-                            I believe that my design can boost your brand image, in the same way the Marong Marong Studio is growing.
-                            <br>
-                            <br>
+                            I believe that my design can boost your brand image, in the same way the Marong Marong Studio is growing.</p>
+                            <p>
                             제 디자인으로 마롱마롱 스튜디오가 성장하고 있는 것과 같이 당신의 브랜드 및 비즈니스 이미지를 끌어올릴 수 있다고 믿습니다.
-                                
                             </p>
+                            <a href="#">ABOUT</a>    
+                            
                         </div>
                     </div>
                     <div class="plant" style="background-image:url(https://github.com/yangmikang/img1/blob/master/pf/%EB%A7%88%EB%A1%B1%EB%A7%88%EB%A1%B1/main_plant.jpg?raw=true);"></div>
@@ -121,6 +122,107 @@
                     </ul>     
                 </div>
 
+            </div>
+        </div>
+        <div class="pf">
+            <div class="pf-bar">
+                <div class="pf-box con-2">
+                    <ul>
+                        <li class=" ">
+                            <a href="#" class=" ">
+                                <div class="figure ">
+                                    <div><img src="https://github.com/yangmikang/img1/blob/master/pf/%EB%A7%88%EB%A1%B1%EB%A7%88%EB%A1%B1/please2.jpg?raw=true" alt=""></div>
+                                    <div></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class=" ">
+                            <a href="#" class=" ">
+                                <div class="figure ">
+                                    <div><img src="https://github.com/yangmikang/img1/blob/master/pf/%EB%A7%88%EB%A1%B1%EB%A7%88%EB%A1%B1/weather.png?raw=true" alt=""></div>
+                                    <div></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="figure">
+                                    <div><img src="https://github.com/yangmikang/img1/blob/master/pf/%EB%A7%88%EB%A1%B1%EB%A7%88%EB%A1%B1/hyundai.png?raw=true" alt=""></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="figure">
+                                    <div><img src="https://github.com/yangmikang/img1/blob/master/pf/%EB%A7%88%EB%A1%B1%EB%A7%88%EB%A1%B1/cartoon-earth.png?raw=true" alt=""></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="figure">
+                                    <div><img src="https://github.com/yangmikang/img1/blob/master/pf/%EB%A7%88%EB%A1%B1%EB%A7%88%EB%A1%B1/drift.jpg?raw=true" alt=""></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="figure">
+                                    <div><img src="https://github.com/yangmikang/img1/blob/master/pf/%EB%A7%88%EB%A1%B1%EB%A7%88%EB%A1%B1/toefing.gif?raw=true" alt=""></div> 
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="figure">
+                                    <div><img src="https://github.com/yangmikang/img1/blob/master/pf/%EB%A7%88%EB%A1%B1%EB%A7%88%EB%A1%B1/alazyevening2.jpg?raw=true" alt=""></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="figure">
+                                    <div><img src="https://github.com/yangmikang/img1/blob/master/pf/%EB%A7%88%EB%A1%B1%EB%A7%88%EB%A1%B1/bscontents.jpg?raw=true" alt=""></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="figure">
+                                    <div><img src="https://github.com/yangmikang/img1/blob/master/pf/%EB%A7%88%EB%A1%B1%EB%A7%88%EB%A1%B1/quickbird.jpg?raw=true" alt=""></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="figure">
+                                    <div><img src="https://github.com/yangmikang/img1/blob/master/pf/%EB%A7%88%EB%A1%B1%EB%A7%88%EB%A1%B1/yiyoom.jpg?raw=true" alt=""></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="figure">
+                                    <div><img src="https://github.com/yangmikang/img1/blob/master/pf/%EB%A7%88%EB%A1%B1%EB%A7%88%EB%A1%B1/airpollution.gif?raw=true" alt=""></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="figure">
+                                    <div><img src="https://github.com/yangmikang/img1/blob/master/pf/%EB%A7%88%EB%A1%B1%EB%A7%88%EB%A1%B1/mobilecase.jpg?raw=true" alt=""></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="figure">
+                                    <div><img src="" alt=""></div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
 </body>
