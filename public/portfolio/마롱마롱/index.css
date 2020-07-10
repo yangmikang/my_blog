@@ -174,8 +174,43 @@ label[for] {
   }
 /**/
 
+.top {
+  position: fixed;
+  width: 100%;
+  z-index: 300;
+  height: 70px;
+  background-color: transparent;
+  transition: background .3s ,height .4s;
+}
+.top.active {
+  background-color: white;
+  height: 58px;
+}
+
+.top > .top-bar>.logo{
+  opacity: 1;
+}
+.top > .top-bar>.logo2{
+  opacity: 0;
+}
+
+
+.top.active > .top-bar>.logo{
+  opacity: 0;
+}
+.top.active > .top-bar>.logo2{
+  opacity: 1;
+}
+.top.active > .top-bar>.menu-bar>.menu-box{
+  margin-top:-2%;
+    transition: margin-top .3s;
+  }
+.top.active > .top-bar>.menu-bar>.menu-box>ul>li>a{
+  color: #232323;
+
+}
 .top-bar{
-    position: relative;
+    width: 100%;
 }
 .bn-box{
     position: relative;
@@ -190,20 +225,29 @@ label[for] {
     
 }
 .logo{
-    position: absolute;
-    top: 20px;
-    left: 14px;
+    margin-left: 14px;
+    margin-top:1%;
+    transition: margin-top .2s;
 }
 .logo>a>img{
     width: 213.33px;
     display: block;
     
 }
-.menu-bar{
-    position: absolute;
-    right: 0;
-    z-index: 100;
-    top:0;
+.logo2{
+  margin-left: 14px;
+  position: absolute;
+  top: 22%;
+  transition: top 2s;
+}
+.logo2>a>img{
+  position: absolute;
+  width: 213.33px;
+  display: block;
+  
+}
+.menu-box{
+  transition: margin-top .3s;
 }
 .menu-box>ul::after{
     content: "";
@@ -212,8 +256,10 @@ label[for] {
 }
 .menu-box>ul{
     
-    margin-top:-1px;
+    margin-top:-3px;
     margin-right: -4px;
+    
+    
 }
 .menu-box>ul>li{
     float: left;
@@ -505,8 +551,7 @@ label[for] {
     padding: 5px 5px;
   }
 .pf-box>ul>li>a{
-  float: left
-  ;
+  float: left;
 
   width: calc(100%/4);
   box-sizing: border-box;
@@ -521,7 +566,7 @@ label[for] {
   opacity: 1;
   top: 0;
   width: 100%;
-  transition:width 3s;
+  transition: all 0.35s ease 0s;
 }
 .pf-box>ul>li>a>.figure:hover>div{
   position: relative;
@@ -534,9 +579,20 @@ label[for] {
   position: relative;
   top: -101px;
   background-color: blue;
-  transition: all 0.3s ease 0s;
-  
 }
-  
+  .figure-text{
+    
+    position: absolute;
+    bottom: -101px;
+    padding: 32px;
+    height: auto;
+  opacity: 0;
+    transition: top 5s;
+  }
+  .figure:hover~.figure-text{
+    bottom: -10px;
+    opacity: 1;
+  }
   html{
     scroll-behavior: smooth;}
+

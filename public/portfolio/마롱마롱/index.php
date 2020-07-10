@@ -11,17 +11,24 @@
     <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"> </script> <script
         src="/resource/common.js">
     </script>
+    <script src="./index.js"></script>
 </head>
 
 <body>
     <div class="home">
-        <div class="top con">
-            <div class="top-bar con ">
-                <div class="logo con">
-                    <a href="#"><img src="http://marongmarong.com/images/logo-white.png" alt=""></a>
-
+        <div class="top">
+            <div class="top-bar con flex flex-ai-c">
+                <div class="logo2 flex-1-0-0">
+                    <a href="#">
+                        <img src="https://github.com/yangmikang/img1/blob/master/pf/%EB%A7%88%EB%A1%B1%EB%A7%88%EB%A1%B1/logo.png?raw=true" alt="">
+                    </a>
                 </div>
-                <div class="menu-bar con ">
+                <div class="logo flex-1-0-0">
+                    <a href="#">
+                        <img src="http://marongmarong.com/images/logo-white.png" alt="">
+                    </a>
+                </div>
+                <div class="menu-bar">
                     <div class="menu-box">
                         <ul>
                             <li><a href="#" class=>ABOUT</a></li>
@@ -30,14 +37,12 @@
                             <li><a href="#" class=>CONTACT</a></li>
                             <li><a href="#"><i class="fas fa-shopping-cart"></i></a>
                             </li>
-
                         </ul>
                     </div>
                 </div>
             </div>
-
-
         </div>
+
         <div class="bn">
             <div class="bn-img"
                 style="background-image:url(https://github.com/yangmikang/img1/blob/master/pf/%EB%A7%88%EB%A1%B1%EB%A7%88%EB%A1%B1/main_image5.jpg?raw=true);">
@@ -134,12 +139,15 @@
                                     <div><img src="https://github.com/yangmikang/img1/blob/master/pf/%EB%A7%88%EB%A1%B1%EB%A7%88%EB%A1%B1/please2.jpg?raw=true" alt=""></div>
                                     <div></div>
                                 </div>
+
                             </a>
                         </li>
                         <li class=" ">
                             <a href="#" class=" ">
                                 <div class="figure ">
-                                    <div><img src="https://github.com/yangmikang/img1/blob/master/pf/%EB%A7%88%EB%A1%B1%EB%A7%88%EB%A1%B1/weather.png?raw=true" alt=""></div>
+                                    <div>
+                                        <img src="https://github.com/yangmikang/img1/blob/master/pf/%EB%A7%88%EB%A1%B1%EB%A7%88%EB%A1%B1/weather.png?raw=true" alt="">
+                                    </div>
                                     <div></div>
                                 </div>
                             </a>
