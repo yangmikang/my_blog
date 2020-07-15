@@ -1,5 +1,4 @@
-body,
-ul,
+body,ul,
 li,
 h1 {
   margin: 0;
@@ -322,4 +321,59 @@ label[for] {
     color: #333;
     font-size: 1rem;
 
+}
+body, ul, li, h1, h2, h3, h4 {
+  margin:0;
+}
+.owl-carousel{
+  position:relative;
+}
+.my-slider-1 .item>h4>img{
+  height:440px;
+  width:auto;
+}
+.my-slider-1 .item {
+  font-size:15rem;
+  display:flex;
+  min-width:700x;
+  min-height:700px;
+  justify-content:center;
+  align-items:flex-end;
+}
+
+.my-slider-1 > .owl-carousel:hover > .owl-nav > .owl-prev{
+  left:-10px;}
+.my-slider-1 > .owl-carousel > .owl-nav > .owl-prev{
+  position:absolute;
+  top:62%;
+  left:-100px;
+  border:none;
+  transition:left .4s;
+}
+.my-slider-1 > .owl-carousel:hover > .owl-nav > .owl-next{
+  right:-10px;
+}
+.my-slider-1 > .owl-carousel > .owl-nav > .owl-next{
+    position:absolute;
+  top:62%;
+  right:-200px;
+  transition:right .4s;
+}
+
+button{
+  outline:none;
+
+}
+
+.my-slider-1 > .owl-carousel > .owl-nav > .owl-prev:hover, .my-slider-1 > .owl-carousel > .owl-nav > .owl-next:hover {
+    background-color:transparent;
+  color:black;
+  
+}
+
+.my-slider-1{
+  z-index: 999;
+}
+.owl-carousel{
+  display: block;
 }

@@ -7,13 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>이솝</title>
     <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"">
-    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"> </script> <script
-        src="/resource/common.js">
-    </script>
-    <script src="./index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- 아울 캐러셀 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+
 
 <body>
+
     <div class="top-dv-bar">
         <a href="#">이솝 공식 홈페이지를 이용해 주셔서 감사합니다. 주문 폭주 및 배송사의 사정으로 배송 지연이 발생 될 수 있는 점 참고 부탁 드립니다.</a>
     </div>
@@ -57,6 +62,31 @@
 
         </div>
     </div>
+
+
+<div class="my-slider-1">
+  <div class="owl-carousel owl-theme">
+    <div class="item">
+      <h4><img src="https://www.aesop.com/medias/Aesop-Body-Geranium-Leaf-Body-Cleanser-500mL-large.png?context=bWFzdGVyfGltYWdlc3w1OTg2NDd8aW1hZ2UvcG5nfGltYWdlcy9oNmIvaGYwLzg4MTQ5NzU0ODM5MzQucG5nfDZiMmQ1YWYzNmE3ZTBlYjZiYTI2Njg3MjBhODA5MDU4MDcxYjllNmI5NWE3NzU4MzhhZTY5MDM3MGNmMTY1MDI" alt=""></h4>
+    </div>
+    <div class="item">
+      <h4><img src="https://www.aesop.com/medias/Aesop-Body-Rind-Concentrate-Body-Balm-120mL-large.png?context=bWFzdGVyfGltYWdlc3w1ODgyNjB8aW1hZ2UvcG5nfGltYWdlcy9oYzUvaDIxLzg3OTc0Mzk1OTA0MzAucG5nfDFiNGYxMGEzY2RlZGI4ZGJmZDQ5NDA0MmQ4NTZkZDlhYzI1OWNkYmNjNzhiYTZiMTM4MmY4MTNhNmNiYjVlZjY" alt=""></h4>
+    </div>
+    <div class="item">
+      <h4><img src="https://www.aesop.com/medias/Aesop-Body-Redemption-Body-Scrub-180mL-large.png?context=bWFzdGVyfGltYWdlc3w2NTYxNDJ8aW1hZ2UvcG5nfGltYWdlcy9oNzAvaDA1Lzg3OTc0MzkxNjQ0NDYucG5nfDhiMzBmOTE2NjBkZmFjOWE4NzM0ZjEwNmEyZTdkNjVhNjk1NzY4ZWJiZmQ3ZjE2M2NlNzU0MDIxOWZiNjJhMmQ" alt=""></h4>
+    </div>
+    <div class="item">
+      <h4><img src="https://www.aesop.com/medias/Aesop-Body-A-Rose-By-Any-Other-Name-Body-Cleanser-500mL-large.png?context=bWFzdGVyfGltYWdlc3w2MDAwNzN8aW1hZ2UvcG5nfGltYWdlcy9oMWUvaGUyLzg4MTQ1NjMxOTY5NTgucG5nfDRlNmVlNWFkY2U5MTdjYWQyMTk4YTg5NjUxMzRlNTY4M2Y0NmQ0NzRlNzA5YTExYzI3OWVkNjIzYmYyNzdkYjA" alt=""></h4>
+    </div>
+    <div class="item">
+      <h3><img src="https://www.aesop.com/medias/Aesop-Geranium-Leaf-Duet-with-Product-Large-1584x962px.png?context=bWFzdGVyfGltYWdlc3w0MTIxMzV8aW1hZ2UvcG5nfGltYWdlcy9oZTEvaGYyLzkxMTA3OTg5NTg2MjIucG5nfDMxNDhlMjJkMWY4NDZiNDU5NWJjMDcxZmM4MzljMmYxNjZhMDVmMTEzMTI1NDZkMTk3ODcxNzA5YjdmNDhlMDU" alt=""></h3>
+    </div>
+    <div class="item">
+      <h4><img src="https://www.aesop.com/medias/Aesop-Body-Coriander-Seed-Body-Cleanser-500mL-large.png?context=bWFzdGVyfGltYWdlc3w2MDQ3MTJ8aW1hZ2UvcG5nfGltYWdlcy9oYzIvaDkxLzg4MTQ1NjQzNDM4MzgucG5nfGUwOTMxNGM2NDI2MjIyMTBjYTc1NDg0NzQ0NTdhOTNiYWNiM2Q1YzI5N2I4OTM1NGU3MmYxNjkzODU3NTA0OTg" alt=""></h4>
+    </div>
+  </div>
+</div>
+
 
 </body>
 
