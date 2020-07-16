@@ -8,6 +8,7 @@
 <body>
     <ul>
         <li><a href="/portfolio/마롱마롱">마롱마롱</a></li>
+        <li><a href="/portfolio/이솝">이솝</a></li>
     </ul>
 </body>
 </html>
