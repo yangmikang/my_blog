@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>이솝</title>
+  <title>이솝 대한민국</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -38,11 +38,11 @@
       </svg>
     </a>
   </div>
-  <div class="bn-bar con"
+  <div class="bn-bar con active-on-visible"
     style="background-image:url(https://www.aesop.com/medias/1Aesop-Citrus-Melange-Body-Cleanser-2020-Hybris-Homepage-Primary-Full-Bleed-Desktop-4000x1450px.jpg?context=bWFzdGVyfGltYWdlc3w1NTg0NDJ8aW1hZ2UvanBlZ3xpbWFnZXMvaGE4L2gyNC85NDQzODk4ODg0MTI2LmpwZ3xjYzE4NDVhNmZkMDM0M2QxZDJiNGE4ZDkwNzI4ZGM1MmQxNjg0NzYxM2JjOGQ2OTFkNDhiZjI0MjViOGJlYTlm);">
     <div class="bn-top-bar">
-      <div class="top-box flex flex-1-0-0"">
-                <ul class=" flex flex-1-0-0"">
+      <div class="top-box flex flex-1-0-0">
+                <ul class=" flex flex-1-0-0">
         <li><a href="#">제품보기</a></li>
         <li><a href="#">읽기</a></li>
         <li><a href="#">스토어</a></li>
@@ -55,7 +55,7 @@
       </div>
     </div>
   </div>
-  <div class="aesop-logo">
+  <div class="aesop-logo active-on-visible">
     <svg aria-labelledby="f025ef54-c189-4c11-93b7-36963e132cea" class="Icon NavLogo-icon" role="img"
       viewBox="0 0 489.7 154.3">
       <title id="f025ef54-c189-4c11-93b7-36963e132cea">Aesop logo</title>
@@ -82,7 +82,7 @@
       </g>
     </svg>
   </div>
-  <div class="bn-text-bar">
+  <div class="bn-text-bar active-on-visible">
     <div class="text-bar">
       <h5>갓 짜낸 신선함</h5>
       <h1>시트러스 멜란지 바디 클렌저 </h1>
@@ -99,7 +99,7 @@
   </div>
 
 
-  <div class="my-slider-1 con">
+  <div class="my-slider-1 con-3 active-on-visible">
     <div class="owl-carousel owl-theme">
       <div class="item">
         <h4><img
@@ -131,24 +131,33 @@
       <div class="item">
         <h3><img
             src="https://www.aesop.com/medias/Aesop-Geranium-Leaf-Duet-with-Product-Large-1584x962px.png?context=bWFzdGVyfGltYWdlc3w0MTIxMzV8aW1hZ2UvcG5nfGltYWdlcy9oZTEvaGYyLzkxMTA3OTg5NTg2MjIucG5nfDMxNDhlMjJkMWY4NDZiNDU5NWJjMDcxZmM4MzljMmYxNjZhMDVmMTEzMTI1NDZkMTk3ODcxNzA5YjdmNDhlMDU"
-            alt=""></h3>
+            alt="">
+          <a href="#"><span>제라늄 리프 듀엣</span></a><a href="#">바디 관리를 위한 클렌징과 밤으로 구성된 세트</a></h3>
       </div>
       <div class="item">
         <h4><img
             src="https://www.aesop.com/medias/Aesop-Body-Coriander-Seed-Body-Cleanser-500mL-large.png?context=bWFzdGVyfGltYWdlc3w2MDQ3MTJ8aW1hZ2UvcG5nfGltYWdlcy9oYzIvaDkxLzg4MTQ1NjQzNDM4MzgucG5nfGUwOTMxNGM2NDI2MjIyMTBjYTc1NDg0NzQ0NTdhOTNiYWNiM2Q1YzI5N2I4OTM1NGU3MmYxNjkzODU3NTA0OTg"
-            alt=""></h4>
+            alt="">
+            <a href="#"><span>코리안더 씨드 바디 클렌저</span></a><a href="#">따뜻한,스파이시향</a></h4>
       </div>
     </div>
   </div>
-  <div class="slider-line con">
+
+  
+
+
+
+
+
+  <div class="slider-line con active-on-visible">
     <div class="cursor-line"></div>
 
   </div>
 
 
 
-  <div class="about-item con-2">
-    <div class="about-text">
+  <div class="about-item con active-on-visible">
+    <div class="about-text con">
       <ul>
         <li>
           <div class="ab-title">
@@ -164,7 +173,7 @@
 
         </li>
         <li>
-          <div class="about-img">
+          <div class="about-img active-on-visible">
             <img
               src="https://www.aesop.com/medias/GenericImages-FacialAppointment-Primary-Mid-Desktop-1690x1400px.jpg?context=bWFzdGVyfGltYWdlc3wxNjM4NDh8aW1hZ2UvanBlZ3xpbWFnZXMvaDc5L2g0Ni84ODc5NzQ1NTY0NzAyLmpwZ3wyOTBjMmVmZDk3Y2NlZmJlYWNlMjM5ODM2ZDE4MTAxYzc4YTM5MjQ3YjE4ZDQ0ZmQ2NWM1ZWU5Y2MxNTg1NmNi"
               alt="">
@@ -174,7 +183,7 @@
       </ul>
     </div>
   </div>
-  <div class="about-item-2 con-2">
+  <div class="about-item-2 con-2 active-on-visible">
     <div class="about-text">
       <ul>
         <li>
@@ -202,7 +211,7 @@
       </ul>
     </div>
   </div>
-  <div class="bottom-text con">
+  <div class="bottom-text con active-on-visible">
     <h1>‘Know'st thou the land where the lemon-trees bloom?’</h1>
     <h5> Johann Wolfgang von Goethe</h5>
   </div>
@@ -210,11 +219,12 @@
     <div class=" text-bar-2 con-2 ">
       <h5>구독하기</h5>
       <h3>이메일 주소</h3>
-      <h5>제품,스토어,이벤트,그리고 이솝이 고른 글들이 담긴 이솝 뉴스레터를 받고 싶습니다.</h5>
+      <h5>제품,스토어,이벤트,그리고 이솝이 고른 글들이 담긴 이솝 뉴스레터를 받고 싶습니다. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
     </div>
     <div class="text-box">
       <ul>
-        <li><a href="#">문의 하기</a></li>
+        <li><a href="#">문의 하기</a>
+      </li>
         <li><a href="#">문의하기</a></li>
         <li><a href="#">FAQS</a></li>
         <li><a href="#">배송 및 반품</a></li>
@@ -233,11 +243,27 @@
       </ul>
       <ul>
         <li><a href="#">소셜</a></li>
-        <li><a href="#">instagram</a></li>
-        <li><a href="#">Twitter</a></li>
-        <li><a href="#">Linkedin</a></li>
-        <li><a href="#">KaKao Plus Friend</a></li>
-        <li><a href="#">Naver Post</a></li>
+        <li><a href="#">instagram</a>
+        <svg class="Icon FooterLinks-linkExternalIcon" role="img" viewBox="0 0 50 50">
+													<title>External Link</title><g>
+													<path d="M21.8,0.2l28.1-0.1v28.1l-4.5,0l0.1-20.5L16.2,37.1l-3.4-3.4L42.1,4.4L21.8,4.4L21.8,0.2L21.8,0.2z"></path></g></svg></li>
+        <li><a href="#">Twitter</a>
+        <svg class="Icon FooterLinks-linkExternalIcon" role="img" viewBox="0 0 50 50">
+													<title>External Link</title><g>
+													<path d="M21.8,0.2l28.1-0.1v28.1l-4.5,0l0.1-20.5L16.2,37.1l-3.4-3.4L42.1,4.4L21.8,4.4L21.8,0.2L21.8,0.2z"></path></g></svg>
+      </li>
+        <li><a href="#">Linkedin</a>
+        <svg class="Icon FooterLinks-linkExternalIcon" role="img" viewBox="0 0 50 50">
+													<title>External Link</title><g>
+													<path d="M21.8,0.2l28.1-0.1v28.1l-4.5,0l0.1-20.5L16.2,37.1l-3.4-3.4L42.1,4.4L21.8,4.4L21.8,0.2L21.8,0.2z"></path></g></svg></li>
+        <li><a href="#">KaKao Plus Friend</a>
+        <svg class="Icon FooterLinks-linkExternalIcon" role="img" viewBox="0 0 50 50">
+													<title>External Link</title><g>
+													<path d="M21.8,0.2l28.1-0.1v28.1l-4.5,0l0.1-20.5L16.2,37.1l-3.4-3.4L42.1,4.4L21.8,4.4L21.8,0.2L21.8,0.2z"></path></g></svg></li>
+        <li><a href="#">Naver Post</a>
+        <svg class="Icon FooterLinks-linkExternalIcon" role="img" viewBox="0 0 50 50">
+													<title>External Link</title><g>
+													<path d="M21.8,0.2l28.1-0.1v28.1l-4.5,0l0.1-20.5L16.2,37.1l-3.4-3.4L42.1,4.4L21.8,4.4L21.8,0.2L21.8,0.2z"></path></g></svg></li>
       </ul>
     </div>
 
@@ -248,7 +274,13 @@
         | 대표 이메일:
         aesop@aesop.com | 호스팅 사업자: SAP Hybris | 사업자 등록 번호: 220-88-56014 | 통신판매업 신고번호: 2014-서울강남-02300</a></div>
   </div>
-<div class="foot-box"></div>
+<div class="foot-box active-on-visible">
+  <div class="company">© 이솝
+</div>
+<div class="langs"><a href="#">대한민국</a></div>
+
+</div>
+
 </body>
 
 </html>

@@ -34,7 +34,7 @@
                 <nav class="menu-box flex flex-1-0-0 con">
                     <ul class="flex flex-1-0-0">
                         <li class=" "><a href="/" class="flex flex-1-0-0 flex-ai-c flex-jc-c">HOME</a></li>
-                        <li class=""><a href="/list.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c">ARTICLES</a>
+                        <li class=""><a href="./portfolio" class="flex flex-1-0-0 flex-ai-c flex-jc-c">ARTICLES</a>
                         </li>
                         <li class=""><a href="/list.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c">PORTFOLIO</a>
                         </li>
