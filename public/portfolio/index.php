@@ -9,6 +9,9 @@
     <ul>
         <li><a href="/portfolio/마롱마롱">마롱마롱</a></li>
         <li><a href="/portfolio/이솝">이솝</a></li>
+        <li><a href="/portfolio/artworks/1/강아지.png">강아지</a></li>
+
+
     </ul>
 </body>
 </html>
