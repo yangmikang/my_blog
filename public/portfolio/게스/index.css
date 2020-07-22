@@ -1,0 +1,294 @@
+/* 노말라이즈 */
+body,
+ul,
+li,
+h1 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+label[for] {
+    cursor: pointer;
+    user-select: none;
+}
+
+/* 라이브러리 */
+.con {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.con-2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.con {
+    max-width: 1170px;
+}
+
+.con-2 {
+    max-width: 1400px;
+}
+
+.con-3 {
+    max-width: 1536px;
+}
+
+.con-3 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.con-4 {
+    max-width: 1903px;
+}
+
+.con-4 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.absolute-left {
+    position: absolute;
+    left: 0;
+}
+
+.absolute-right {
+    position: absolute;
+    right: 0;
+}
+
+.absolute-bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.absolute-top {
+    position: absolute;
+    top: 0;
+}
+
+.absolute-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.absolute-middle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.absolute-middle.absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.relative {
+    position: relative;
+}
+
+.cell {
+    float: left;
+    box-sizing: border-box;
+}
+
+.cell-right {
+    float: right;
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.img-box>img {
+    width: 100%;
+    display: block;
+}
+
+.con {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+*>.flex {
+    display: flex;
+}
+
+*>.flex-wrap {
+    flex-wrap: wrap;
+}
+
+*>.flex-column-nowrap {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+*>.flex-grow-1 {
+    flex-grow: 1;
+}
+
+*>.flex-jc-c {
+    display: flex;
+    justify-content: center;
+}
+
+*>.flex-jc-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+*>.flex-jc-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+*>.flex-ai-c {
+    display: flex;
+    align-items: center;
+}
+
+*>.flex-row-nowrap {
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+*>.flex-ch-basis-0 {
+    display: flex;
+}
+
+.flex-ch-basis-0>* {
+    flex-basis: 0;
+}
+
+*>.flex-1-0-0 {
+    flex: 1 0 0;
+}
+
+.flex-self-c {
+    display: flex;
+    align-self: center;
+}
+
+/**/
+
+.g-menu-box>ul>li>a{
+    display: block;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+.g-menu-box>ul>.t-c>a{
+    color: red;
+}
+.g-menu-box>ul>li>ul{
+    display: none;
+}
+.g-menu-box>ul>li:hover>ul{
+    display: block;
+}
+.g-menu-box>ul>li>ul{
+    background-color: red;
+}
+.g-menu-box>ul>li>ul>li>a{
+    display: block;
+    text-align: center;
+}
+.bn-img{
+    height: 100vh;
+    background-size: cover;
+}
+.g-top{
+    position: fixed;
+}
+
+.bn-slider-bar {
+    position: relative;
+    height:79vh;
+  }
+  .bn-slider-bar .bn-slider {
+    height: 100%;
+  }
+  .bn-slider-bar .bn-slider>div{
+    width: 100%;
+    position: relative;
+    height: 100%;
+    background-size: cover;
+  }
+  .bn-slider-bar .side-bars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .bn-slider-bar .side-bars > div {
+    position:absolute;
+    top:0;
+    left:0;
+    width:calc(50% - 100px);
+    height:100%;
+    cursor:pointer;
+  }
+  .bn-slider-bar .side-bars > div:active > span {
+    transform:translateY(-40%);
+  }
+  .bn-slider-bar .side-bars > div > span {
+    position:absolute;
+    top:65%;
+    transform:translateY(-65%);
+    left:inherit;
+    right:inherit;
+    font-size:5rem;
+    transition: transform 0.2s;
+    margin:0 10px;
+  }
+  .bn-slider-bar .side-bars > div:last-child {
+    left:auto;
+    right:0;
+  }
+  
+  .bn-slider-bar > .bn-slider > div {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    opacity:0;
+    z-index: -1;
+    height: 100vh;
+    transition:opacity 0.5s;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+   
+  }
+  
+  .bn-slider-bar > .bn-slider > div.active {
+    opacity:1;
+  }
+  

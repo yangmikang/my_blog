@@ -16,8 +16,8 @@
 <body>
     <div class="top-bar con-3">
         <div class="site-logo ">
-            <img src="https://github.com/yangmikang/img1/blob/master/pf/%EC%99%B8%EA%B5%AD%EC%82%AC%EC%9D%B4%ED%8A%B8/dd.JPG?raw=true"
-                alt=""></div>
+            <img src="https://github.com/yangmikang/img1/blob/master/pf/%EC%99%B8%EA%B5%AD%EC%82%AC%EC%9D%B4%ED%8A%B8/%EB%A1%9C%EA%B3%A0.png?raw=true"
+                alt="" style="width:54px;"></div>
 
         <div class="site-menu-bar ">
             <div class="menu-box flex flex-jc-end ">
@@ -30,30 +30,25 @@
                 </ul>
             </div>
         </div>
-        <div class="main-text con-4">
-            <div class="small-text">
-                Series
-            </div>
-            <div class="bn-text con-4">
-                <ul class="list ">
-                    <li><a href="#">Ueno Wharf</a>
-                    </li>
-                    <li><a href="#">Solos</a>
-                    <li><a href="#">Journey to Cart</a>
-                    </li>
-                    </li>
-                    <li><a href="#">The Aman Steppe</a>
-                    </li>
-                    <li><a href="#">Summer Encore</a>
-                    </li>
-                    <li><a href="#">Ylin-Ylan</a>
-                    </li>
-                </ul>
-            </div>
+    </div>
+    <div class="main-text con-2">
+        <div class="small-text flex flex-jc-start">
+            Series
+        </div>
+
+        <div class="bn-text con-2">
+            <ul class=" ">
+                <li class=""><a href="">Ueno Wharf</a></li>
+                <li class=""><a href="">Solos</a></li>
+                <li class=""><a href="">Journey to Cart</a></li>
+                <li class=""><a href="">The Aman Steppe</a></li>
+                <li class=""><a href="">S ummer Encore</a></li>
+                <li class=""><a href="">Ylin-Ylan</a></li>
+            </ul>
         </div>
     </div>
-    <div class="img-list con-2">
-        <div class="img-box-1 flex con-2">
+    <div class="img-list .con-4">
+        <div class="img-box-1 flex .con-4">
             <div class="first-img">
                 <div><img
                         src="https://github.com/yangmikang/img1/blob/master/pf/%EC%99%B8%EA%B5%AD%EC%82%AC%EC%9D%B4%ED%8A%B8/5ec243d076f363a32e9ceb15_1908%20Ylin%E2%80%93Ylan%20X%2001.jpg?raw=true"
@@ -72,41 +67,40 @@
 
     </div>
     </div>
-    <div class="img-list-2 con-2">
-        <div class="img-box-2 flex con-2">
+    <div class="img-list-2 .con-4">
+        <div class="img-box-2 flex .con-4">
             <div class="first-img-2">
                 <div><img
                         src="https://github.com/yangmikang/img1/blob/master/pf/%EC%99%B8%EA%B5%AD%EC%82%AC%EC%9D%B4%ED%8A%B8/5ec4a9d44958033b3ee9bc0f_2020%2001%20Calendar.jpg?raw=true"
                         alt=""></div>
 
-                <a href="#">Ylin-Ylan X</a>
-                <a href="#">Screen Print</a>
+                <a href="#">2020</a>
+                <a href="#">Archival Print</a>
             </div>
             <div class="next-img-2">
                 <div>
                     <img src="https://github.com/yangmikang/img1/blob/master/pf/%EC%99%B8%EA%B5%AD%EC%82%AC%EC%9D%B4%ED%8A%B8/5ec512448143fde0682e286f_1908%20Ueno%20Wharf%2001.jpg?raw=true"
                         alt="">
-                </div><a href="#">Summer Anchor Encore</a><a href="#">Archival Print</a>
+                </div><a href="#">Ueno Wharf II</a><a href="#">Archival Print</a>
             </div>
             <div class="last-img-2">
                 <div>
                     <img src="https://github.com/yangmikang/img1/blob/master/pf/%EC%99%B8%EA%B5%AD%EC%82%AC%EC%9D%B4%ED%8A%B8/5ec4ee6a495803d96deb4dc0_1903%20Journey%20to%20Cath.jpg?raw=true"
                         alt="">
-                </div><a href="#">Summer Anchor Encore</a><a href="#">Archival Print</a>
+                </div><a href="#">Journey to Cath II</a><a href="#">Archival Print</a>
             </div>
 
         </div>
 
     </div>
     </div>
-    <div class="img-list con-2">
-        <div class="img-box-3 flex con-2">
+    <div class="img-list .con-4">
+        <div class="img-box-3 flex .con-4">
             <div class="first-img-3">
                 <div>
 
                     <img src="https://github.com/yangmikang/img1/blob/master/pf/%EC%99%B8%EA%B5%AD%EC%82%AC%EC%9D%B4%ED%8A%B8/5ec4ea06fce92d466ea2fd8a_Journal%20of%20Asia%20Homepage%20Visual.jpg?raw=true"
                         alt="">
-                    <div class="as-text"><span>Journal of Asia</span><span>2010-2020</span></div>
 
                 </div>
 
@@ -117,53 +111,53 @@
                 <div>
                     <img src="https://github.com/yangmikang/img1/blob/master/pf/%EC%99%B8%EA%B5%AD%EC%82%AC%EC%9D%B4%ED%8A%B8/5ec4d81f7b57e0fa8ab92421_1911%20The%20Aman%20Steppe%2001.jpg?raw=true"
                         alt="">
-                </div><a href="#">Summer Anchor Encore</a><a href="#">Archival Print</a>
+                </div><a href="#">The Aman Steppe Cover I</a><a href="#">Book</a>
             </div>
         </div>
 
     </div>
     </div>
-    <div class="img-list con-2">
-        <div class="img-box-4 flex con-2">
+    <div class="img-list .con-4">
+        <div class="img-box-4 flex .con-4">
             <div class="first-img-4">
                 <div><img
                         src="https://github.com/yangmikang/img1/blob/master/pf/%EC%99%B8%EA%B5%AD%EC%82%AC%EC%9D%B4%ED%8A%B8/5eec69b629b17697de570e76_2020%2006%20Redo%20The%20Orchard%20Knight.jpg?raw=true"
                         alt=""></div>
 
-                <a href="#">Ylin-Ylan X</a>
+                <a href="#">The Orchard Knight</a>
                 <a href="#">Screen Print</a>
             </div>
             <div class="next-img-4">
                 <div>
                     <img src="https://github.com/yangmikang/img1/blob/master/pf/%EC%99%B8%EA%B5%AD%EC%82%AC%EC%9D%B4%ED%8A%B8/5ec4b8c5e95ce2650c418a25_2020%2002%20Tape%20Jogginghouse%2001%201800.jpg?raw=true"
                         alt="">
-                </div><a href="#">Summer Anchor Encore</a><a href="#">Archival Print</a>
+                </div><a href="#">Shuimu I</a><a href="#">Archival Print</a>
             </div>
         </div>
 
     </div>
     </div>
-    <div class="img-list-2 con-2">
-        <div class="img-box-5 flex con-2">
+    <div class="img-list-2 .con-4">
+        <div class="img-box-5 flex .con-4">
             <div class="first-img-5">
                 <div><img
                         src="https://github.com/yangmikang/img1/blob/master/pf/%EC%99%B8%EA%B5%AD%EC%82%AC%EC%9D%B4%ED%8A%B8/5ec513a7fd201f3c9913624c_1905%20Journey%20to%20Cath%20Booklet%202.jpg?raw=true"
                         alt=""></div>
 
-                <a href="#">Ylin-Ylan X</a>
+                <a href="#">Journey to Cath SP II</a>
                 <a href="#">Screen Print</a>
             </div>
             <div class="next-img-5">
                 <div>
                     <img src="https://github.com/yangmikang/img1/blob/master/pf/%EC%99%B8%EA%B5%AD%EC%82%AC%EC%9D%B4%ED%8A%B8/5ec51425d6a74b4c04355aa1_1905%20Jaune%20Serie%20Print.jpg?raw=true"
                         alt="">
-                </div><a href="#">Summer Anchor Encore</a><a href="#">Archival Print</a>
+                </div><a href="#">Jaune III</a><a href="#">Archival Print</a>
             </div>
             <div class="last-img-5">
                 <div>
                     <img src="https://github.com/yangmikang/img1/blob/master/pf/%EC%99%B8%EA%B5%AD%EC%82%AC%EC%9D%B4%ED%8A%B8/5ec515b8b66aa04db1595e9b_1803%20It%20Blows%20Forward%20B.jpg?raw=true"
                         alt="">
-                </div><a href="#">Summer Anchor Encore</a><a href="#">Archival Print</a>
+                </div><a href="#">It Blows Forward B</a><a href="#">Archival Print</a>
             </div>
 
         </div>
@@ -171,21 +165,21 @@
     </div>
     </div>
 
-    <div class="img-list con-2">
-        <div class="img-box-6 flex con-2">
+    <div class="img-list.con-4">
+        <div class="img-box-6 flex .con-4">
             <div class="first-img-6">
                 <div><img
                         src="https://github.com/yangmikang/img1/blob/master/pf/%EC%99%B8%EA%B5%AD%EC%82%AC%EC%9D%B4%ED%8A%B8/5ec4ec7393802b70a404790c_2020%2001%20Public%20Space%201.1%20Mock%20Square.jpg?raw=true"
                         alt=""></div>
 
-                <a href="#">Ylin-Ylan X</a>
+                <a href="#">Public Space</a>
                 <a href="#">Screen Print</a>
             </div>
             <div class="next-img-6">
                 <div>
                     <img src="https://uploads-ssl.webflow.com/571514452b490af542a3138e/5ece5df25065902258085013_Pierrick%20Calvez%20Jello%20II%2003.jpg"
                         alt="">
-                </div><a href="#">Summer Anchor Encore</a><a href="#">Archival Print</a>
+                </div><a href="#">Shuimu II</a><a href="#">Archival Print</a>
             </div>
         </div>
 
@@ -198,8 +192,8 @@
                 <span>One-click subscription / Unsubscribe anytime / Directly to your inbox</span>
                 <div class="sc-button flex flex-jc-c">
                     <div class="email"><span>Enter your email</span> </div>
-                    <div class="sc-bt"><button><a href="">Subscribe</a>    </button>
-                        </div>
+                    <div class="sc-bt"><button><a href="">Subscribe</a> </button>
+                    </div>
                 </div>
             </div>
         </div>
