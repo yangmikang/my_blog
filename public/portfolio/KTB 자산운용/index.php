@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
 
     <link rel="stylesheet" href="./index.css">
     <script src="./index.js"></script>
@@ -52,14 +54,58 @@
 
     </div>
 
-    <div class="scroll-page">
-        <div class="bn-c page">
-            <div class="bn-img con ">
-                <img src="http://admin.i-ktb.com/img/banner/PC/201902281045134410833768455867.png" alt="">
-               
-            </div> <div class="scroll-down"><img src="http://www.i-ktb.com/static/pc/images/main/ico_scroll.png" alt=""></div>
-            
-        </div><div class="news"></div>
+    <div class="scroll-page"></div>
+            <!-- Swiper -->
+            <div id="swiper-container-2" class="swiper-container-2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img
+                            src="http://admin.i-ktb.com/img/banner/PC/201902281045134410833768455867.png" alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="http://admin.i-ktb.com/img/banner/PC/202004011647451217900779257023.png" alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="http://admin.i-ktb.com/img/banner/PC/202004011647341217890308519235.png" alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="http://admin.i-ktb.com/img/banner/PC/202004011643511217667114729693.png" alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="http://admin.i-ktb.com/img/banner/PC/202004011638511217366664755524.png" alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="http://admin.i-ktb.com/img/banner/PC/202004011646011217796802690786.png" alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="http://admin.i-ktb.com/img/banner/PC/202004011647231217878832862352.png" alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="http://admin.i-ktb.com/img/banner/PC/202004011647131217869413313574.png" alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="http://admin.i-ktb.com/img/banner/PC/202004011646591217855123119854.png" alt=""></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination">
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+            <div class="scroll-down"><img src="http://www.i-ktb.com/static/pc/images/main/ico_scroll.png" alt=""></div>
+
+        <div class="news ">
+            <div class="news-text">펀드뉴스</div>
+            <div id="swiper-container" class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href="">[Money Expo]자산운용사 추천상품/ KTB글로벌멀티에셋인컴EMP펀드</a></div>
+                    <div class="swiper-slide"><a href="">"경제재개 기대감 큰 美·유럽주식 비중 높여야"</a> </div>
+                    <div class="swiper-slide"><a href="">[공모펀드 돋보기] KTB글로벌멀티에셋인컴EMP펀드, 글로벌ETF 분산투자해 석달새 9%↑</a></div>
+                    <div class="swiper-slide"><a href=""> KTB그룹, 스타트업 육성…10개 팀에 2억 지원</a></div>
+                    <div class="swiper-slide"><a href="">[Money Expo] 자산운용사 추천상품/ KTB글로벌4차산업1등주펀드</a> </div>
+                    <div class="swiper-slide"><a href="">[Money Expo]자산운용사 추천상품/ KTB글로벌멀티에셋인컴EMP펀드</a> </div>
+                    <div class="swiper-slide"><a href="">"경제재개 기대감 큰 美·유럽주식 비중 높여야"</a> </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
         <div class="section-2 page">
             <div class="inner con">
                 <div class="text-box">

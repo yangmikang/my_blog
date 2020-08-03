@@ -12,26 +12,75 @@ function MySlider1__init() {
 }
 
 
-function scroll_init(){
-  $(window).scroll(function(){
-    $('.page').each(function(index,node){
+function scroll_init() {
+  $(window).scroll(function () {
+    $('.page').each(function (index, node) {
       var windowSt = $(window).scrollTop();
       var $node = $(node);
       var pageSt = $node.offset().top;
       var pageBtm = pageSt + $node.outerHeight();
 
-      if ( windowSt >= pageSt && pageBtm >= windowSt ) {
+      if (windowSt >= pageSt && pageBtm >= windowSt) {
         $('.sc-ev > ul > li').eq(index).addClass('active');
-      }
-      else {
+      } else {
         $('.sc-ev > ul > li').eq(index).removeClass('active');
       }
     })
   });
 }
 
+function swiper__init() {
+  var swiper = new Swiper(".swiper-container", {
+    direction: 'vertical',
+    
+    slidesPerView: 1,
+    spaceBetween: 30,
+    centeredSlides: true,
+    loop: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: '#swiper-container .swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '#swiper-container .swiper-button-next',
+      prevEl: '#swiper-container .swiper-button-prev',
+    },
+    pagination: {
+      el: '#swiper-container .swiper-pagination',
+      clickable: true,
 
+    },
+  });
+}
 
+function bnswiper__init() {
+  var swiper = new Swiper(".swiper-container-2", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    centeredSlides: true,
+    loop: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false
+    },
+    pagination: {
+      el: "#swiper-container-2 .swiper-pagination",
+      clickable: true
+    },
+    pagination: {
+      el: "#swiper-container-2 .swiper-pagination",
+      type: "fraction"
+    },
+    navigation: {
+      nextEl: "#swiper-container-2 .swiper-button-next",
+      prevEl: "#swiper-container-2 .swiper-button-prev"
+    }
+  });
+}
 
 
 
@@ -39,4 +88,6 @@ function scroll_init(){
 $(function () {
   MySlider1__init();
   scroll_init();
+  swiper__init();
+  bnswiper__init();
 })
